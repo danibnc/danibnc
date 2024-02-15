@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yep, estamos trabajando | Daniel Pereyra</title>
+    <link rel="shorcut icon" type="image/x-icon" href="images/foco.png">
     <style>
         *{margin:0;}
         body{
             font-family:sans-serif;
             display:block;
             place-items: end;
-        }
-        a{
-            text-decoration:none;
         }
         #contenido{
             margin-top:15%;
@@ -32,13 +30,23 @@
             height:30px;
         }
         @media screen and (max-width:480px){}
+        @media (prefers-color-scheme: dark) { 
+            body{
+                background-color:#202124;
+                color:#fff;
+            }
+            /* a{
+                text-decoration:underline; -> Enable/disable dark mode
+                color:#fff;
+            }*/
+        }
     </style>
 </head>
 <body>
     <div id="contenido">
         <img src="images/foco.png" width="100px">
         <h1>Yep, estamos trabajando.</h1>
-        <p>Favor de regresar m&aacute;s tarde</p>
+        <p>Favor de regresar m&aacute;s tarde</p><br>
     </div>
     <footer>
 <a href="https://github.com/danibnc" target="_blank" title="GitHub" id="ico-github"><img src="images/github.png"></a>
